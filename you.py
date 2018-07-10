@@ -25,7 +25,7 @@ def args():
 
 def strip_format(fn):
     '''
-    Get rig of the format in the given filename.
+    Get rid of the format in the given filename.
     '''
 
     return '.'.join(fn.split('.')[:-1])
