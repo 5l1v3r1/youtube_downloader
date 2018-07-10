@@ -3,6 +3,10 @@ Download youtube videos saved in Google Chrome's bookmarks folders.
 
 Only tested with Google Chrome in Ubuntu 18.04
 
+### Prerequisites
+ffmpeg is needed to convert the ```.mp4``` to ```.mp3``` files aswell as joining together the audio and thumbnail.
+Installation instrucions are available in [ffmpeg](https://www.ffmpeg.org/)
+
 ### Installation
 ```
 git clone https://github.com/Turr0n/youtube_downloader.git
